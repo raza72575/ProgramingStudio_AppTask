@@ -1,0 +1,7 @@
+{
+  "name": "Task",
+  "displayName": "Task",
+  "plugins": [
+    "expo-font"
+  ]
+}

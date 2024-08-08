@@ -1,35 +1,79 @@
-Project Overview:
+This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-Project Name: Test
-Created Using: React Native
+# Getting Started
 
+>**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
+## Step 1: Start the Metro Server
 
-SignUp Screen:
+First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
-Features:
-The form validates required credentials like email and password.
-The SignUp button becomes active only when all fields are valid.
-Home Screen:
+To start Metro, run the following command from the _root_ of your React Native project:
 
-Features:
-Menu buttons allow the user to choose between viewing all albums or a specific album.
-When the component first renders, it automatically fetches data from the API and displays all albums.
-Clicking on a specific album displays only the data related to that album.
-How to Use the Application:
+```bash
+# using npm
+npm start
 
-Enter Valid Credentials:
+# OR using Yarn
+yarn start
+```
 
-Navigate to the SignUp screen.
-Fill in the required fields (e.g., email, password).
-Ensure that the fields meet validation criteria.
-Press the SignUp button to proceed.
-Explore Albums:
+## Step 2: Start your Application
 
-On the Home screen, you can view all albums by pressing the All Albums button.
-To view a specific album, press the corresponding button (e.g., Album 1, Album 2).
-The selected album's data will appear in the FlatList.
-Screenshots and Documentation:
+Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
-Screenshots: Included in the provided folder.
-PDF Report: Detailed guide on the application flow and features.
+### For Android
+
+```bash
+# using npm
+npm run android
+
+# OR using Yarn
+yarn android
+```
+
+### For iOS
+
+```bash
+# using npm
+npm run ios
+
+# OR using Yarn
+yarn ios
+```
+
+If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+
+This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+
+## Step 3: Modifying your App
+
+Now that you have successfully run the app, let's modify it.
+
+1. Open `App.tsx` in your text editor of choice and edit some lines.
+2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+
+   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+
+## Congratulations! :tada:
+
+You've successfully run and modified your React Native App. :partying_face:
+
+### Now what?
+
+- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
+- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+
+# Troubleshooting
+
+If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+
+# Learn More
+
+To learn more about React Native, take a look at the following resources:
+
+- [React Native Website](https://reactnative.dev) - learn more about React Native.
+- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
+- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
+- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
+- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
